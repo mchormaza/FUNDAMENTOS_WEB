@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+  }
+
+body{
+    background: url(https://imgv3.fotor.com/images/gallery/Purple-gradient-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: 0;
+    padding: 0;
+    height: 150vh;
+    background-position: center;
+
+}
+#title_pr{
+    font-family: Broadway;
+    margin-left: 20px;
+    font-size: 37px;
+    text-align: center;
+    background-image: linear-gradient(to right, #000000, #d2176b, #ff5898, #000000); /* Degradado de colores */
+    background-size: 100%; /* Tamaño completo */
+    -webkit-background-clip: text; /* Clip de texto para aplicar el degradado */
+    background-clip: text; /* Clip de texto para aplicar el degradado - estándar */
+    -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+    animation: fadeInUp 1s ease; /* Animación de entrada */
+
+}
+.container{
+    margin-top: 35px;
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: tahoma;
+    text-align: center;
+
+}
+#formPdto {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(65, 82, 239, 0.638);
+    border: 1px solid #e4dede;
+    border-radius: 5px;
+}
+
+.buttton-group {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+footer{
+    background-color: #7e7777;
+            
+        align-items:end;
+        height: 100px;
+        padding: 5px 1%;
+        text-align: center;
+        
+    }
+    
+    .ig{
+        color: #e2f1f8;
+        background-color: #a666ab;
+    }
+    
+    footer .contenido_footer img {
+    
+            align-self:safe;
+            height: 25px; 
+            width: auto;
+            transition: all 0.3s;
+            background-size: cover;
+            
+        
+        
+    }
+    

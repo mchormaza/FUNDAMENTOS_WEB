@@ -1,0 +1,31 @@
+
+
+.lista_productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border:2px solid #630d70;
+    text-align: center;
+    background-color: rgb(249, 244, 248);
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    margin-top: 10px;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
